@@ -1,0 +1,102 @@
+/*!
+ * socialfloating.js 0.1.0
+ * https://github.com/ixtlistudios/jquery.socialfloating.js
+ *
+ * Copyright 2020, Ixtli Studios
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+.contact-bar {
+  position: fixed;
+  top: 120px;
+  z-index: 10;
+}
+.contact-bar.left {
+  left: -40px;
+}
+.contact-bar.right {
+  right: -40px;
+}
+
+.contact-bar.slide-on-scroll {
+  position: absolute;
+}
+
+.cb-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  padding-top: .3rem;
+  margin: 0.1em 0;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  background: #8e8e93;
+  color: #fff;
+  position: relative;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+  -webkit-transition: all 250ms;
+     -moz-transition: all 250ms;
+          transition: all 250ms;
+}
+.left .cb-link {
+  left: 0;
+  border-radius: 0 0.4em 0.4em 0;
+}
+.right .cb-link {
+  right: 0;
+  border-radius: 0.4em 0 0 0.4em;
+}
+.cb-link .icon {
+  /*margin: 0 !important;*/
+  font-size: 1.1rem;
+  margin: 0 0.5rem 0 0.5rem !important;
+}
+.left .cb-link:hover,
+.left .cb-link:focus,
+.left .cb-link:active {
+  color: #fff;
+  padding-right: 10px;
+  margin-right: auto;
+  text-decoration: none;
+  text-align: right;
+}
+.right .cb-link:hover,
+.right .cb-link:focus,
+.right .cb-link:active {
+  color: #fff;
+  padding-left: 0.8rem;
+  margin-right: auto;
+  text-decoration: none;
+  text-align: left;
+}
+.left .cb-link.cb-hidden {
+  left: -45px;
+}
+.right .cb-link.cb-hidden {
+  right: -45px;
+}
+
+.cb-link.separated {
+  margin-top: 0.5em;
+}
+
+.toggle-bar,
+.cb-link.toggle-bar:focus,
+.cb-link.toggle-bar:hover,
+.cb-link.toggle-bar:active {
+  background: #ccc;
+  padding-top: .3rem;
+  color: #000;
+  border: 0;
+  outline: 0;
+  width: 50px;
+  text-align: center;
+  padding-right: auto;
+}

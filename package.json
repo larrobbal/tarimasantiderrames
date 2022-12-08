@@ -1,0 +1,23 @@
+{
+  "name": "portaextintor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larrobbal/portaextintor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larrobbal/portaextintor/issues"
+  },
+  "homepage": "https://github.com/larrobbal/portaextintor#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.7"
+  }
+}
